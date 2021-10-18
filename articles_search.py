@@ -95,7 +95,7 @@ excel_path = os.path.join(working_dir, "data.xlsx")
 df.to_excel(excel_path, index=False)
 
 # create email
-#login, password= get_credentials("shshlyogl@edu.hse.ru, W1qnCH1f2Z")   # could be setup manually
+#login, password= get_credentials("shshlyogl@edu.hse.ru, xxxxxxx")   # could be setup manually
 login= 'shshlyogl@edu.hse.ru'
 password='W1qnCH1f2Z'
 mail = EmailMessage()
